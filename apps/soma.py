@@ -1,6 +1,8 @@
-import operator
+from operator import add
+
+
 class Soma:
-    def __init__(self,a=None,b=None):
+    def __init__(self, a=None, b=None):
         self.a = a
         self.b = b
 
